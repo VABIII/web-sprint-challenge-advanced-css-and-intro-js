@@ -244,8 +244,15 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s() {
-  
+function get20s(arr) {
+  let arr2 = [];
+  let abc = arr[i].years;
+  for (let i =0; i < arr.length; i++ ) {
+    if (abc.split("") > 1900) {
+      arr2.push(arr[i].name);
+    }
+  }
+  return arr2;
 }
 
 
