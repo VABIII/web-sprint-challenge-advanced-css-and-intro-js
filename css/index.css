@@ -153,3 +153,7 @@ button:hover{
     font-weight: 150;
     margin-top: 10%;	
 }	
+
+@media(max-width:500px) {
+    
+}
